@@ -1,0 +1,5 @@
+my_list=list(map(int,input().split(" ")))
+my_list.append(555)
+# my_list.insert(2,100)
+# my_list.pop(1)
+print(*my_list)
